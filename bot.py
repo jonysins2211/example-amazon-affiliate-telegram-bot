@@ -7,7 +7,7 @@ from amazon_api import AmazonAPI
 bot = Bot(token=TELEGRAM_TOKEN)
 
 # Optional: Only allow specific user(s)
-AUTHORIZED_USERS = [123456789]  # Replace with your Telegram user ID
+AUTHORIZED_USERS = [949657126]  # Replace with your Telegram user ID
 
 # /start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
